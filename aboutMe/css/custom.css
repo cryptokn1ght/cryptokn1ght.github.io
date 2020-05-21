@@ -1,0 +1,122 @@
+body{
+	background-color: #FAFAFA;
+	padding:75px 60px 50px 60px;
+}
+
+.nav-bar{
+	height: auto;
+	padding: 0px;
+  margin-bottom: 75px;
+}
+.navbar-toggler{
+	border: none;
+}
+.bg-light{
+	padding: 0px;
+}
+.navbar-nav{
+	right: 10px;
+}
+.navbar-nav a{
+	font-size: 13px;
+	font-weight: 400;
+	color: grey;
+}
+
+.aboutme{
+	height: auto;
+	padding: 0px;
+}
+.aboutme h1{
+	font-size: 16px;
+  margin-bottom: 20px;
+}
+.aboutme h2{
+  font-size: 14px;
+  font-weight: 400;
+}
+.aboutme p{
+	font-size:12px;
+	font-weight: 300;
+}
+
+/* footer section */
+.footer{
+  padding:0px;
+  margin-top: 200px;
+  height: auto;
+}
+.footer a{
+  font-size: 12px;
+  color: grey;
+}
+.nav-item img{
+  height: 20px;
+}
+.citation{
+  height: auto;
+  margin-top: 10px;
+}
+.citation-list{
+  text-align: right;
+}
+.citation li{
+  list-style: none;
+  font-size: 10px;
+  text-align: right;
+}
+
+/* image overlay text */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #F0F8FF;
+}
+.col-md-6:hover .overlay {
+  opacity: 0.80;
+}
+.col-md-12:hover .overlay {
+  opacity: 0.80;
+}
+.text {
+  color: black;
+  font-size: 15px;
+  font-weight: 300;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+/* pseudo classes */
+a:link, a:visited, a:visited:hover{
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  color       : grey;
+  text-decoration: none;
+}
+
+a:hover, a:visited:hover{
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+  color       : black;
+  text-decoration: none;
+}
