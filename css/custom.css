@@ -1,4 +1,4 @@
-body{
+body{ 
 	background-color: #FAFAFA;
 	padding: 75px 60px 50px 60px;
 }
@@ -125,7 +125,7 @@ a:hover, a:visited:hover{
   -webkit-transition:.5s;
   /* ...and now for the proper property */
   transition:.5s;
-  color       : black;
+  color       : #cd853f;
   text-decoration: none;
 }
 
