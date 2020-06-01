@@ -92,7 +92,7 @@ body{
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #303030;
+  background-color: #202020;
 }
 .col-md-8:hover .overlay {
   opacity: 0.80;
