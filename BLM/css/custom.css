@@ -57,7 +57,7 @@ body{
 	font-size:12px;
 	font-weight: 300;
 }
-.alert-danger p{
+.alert-success p{
 	color: black;
 	font-size: 14px;
 	margin: 0px;
