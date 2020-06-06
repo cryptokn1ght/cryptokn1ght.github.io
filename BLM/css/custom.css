@@ -62,7 +62,11 @@ body{
 	font-size: 14px;
 	margin: 0px;
 }
-
+.alert-danger p{
+	color: black;
+	font-size: 14px;
+	margin: 0px;
+}
 
 .col-md-8{
 	height: auto;
