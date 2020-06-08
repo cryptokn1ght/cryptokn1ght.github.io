@@ -57,14 +57,15 @@ body{
 	font-size:12px;
 	font-weight: 300;
 }
+
 .alert-success p{
 	color: black;
-	font-size: 14px;
+	font-size: 13px;
 	margin: 0px;
 }
 .alert-danger p{
 	color: black;
-	font-size: 14px;
+	font-size: 13px;
 	margin: 0px;
 }
 
