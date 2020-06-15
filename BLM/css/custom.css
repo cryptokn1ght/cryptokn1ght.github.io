@@ -68,7 +68,11 @@ body{
 	font-size: 13px;
 	margin: 0px;
 }
-
+.alert-warning p{
+	color: black;
+	font-size: 13px;
+	margin: 0px;
+}
 .col-md-8{
 	height: auto;
 	padding: 0px;
